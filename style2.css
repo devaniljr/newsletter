@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+/* Resetando o CSS */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/**/
+
+body {
+    background-image: url(./img/background-footer.jpg);
+    background-size: cover;
+}
+
+#container {
+    margin: 60px auto 0 auto;
+    background: white;
+    width: 660px;
+    border-radius: 5px;
+}
+
+#container-conteudo {
+    padding: 40px;
+}
+
+#newsletter {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #288ccc;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+#titulo, .sub-titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#titulo {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -10px 0;
+}
+
+.sub-titulo {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#paragrafo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin: 25px 0;
+    font-weight: 400;
+    opacity: 85%;
+}
+
+/* Formatação link canal do You Tube*/
+a {
+    color: #FF6347;
+    opacity: 100%;
+}
+
+a:hover {
+    color: #288ccc;
+}
+
+a:visited {
+    color: #288ccc;
+}
+/**/
+
+#informativo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Formatação formulário*/
+input {
+    border: solid #e9ecef 2px;
+    box-sizing: border-box;
+    height: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 386px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 190px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #FF6347;
+    color: black;
+}
+
+input[type="submit"]:hover {
+    background-color: #288ccc;
+    color: white;
+}
+/**/
+
+#privacidade {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    margin-left: 50px;
+    opacity: 70%;
+}
+
+/* Rodapé Logo */
+#logo-footer {
+    margin: 150px 0px 150px 400px;
+}
