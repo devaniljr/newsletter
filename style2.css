@@ -94,7 +94,7 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-    width: 190px;
+    width: 189px;
     cursor: pointer;
     -webkit-appearance: none;
     border: none;
@@ -102,9 +102,22 @@ input[type="submit"] {
     color: black;
 }
 
+/* Adicionando efeito no submit */
 input[type="submit"]:hover {
+    animation: pulsate 1s
+    ease-in-out;
     background-color: #288ccc;
     color: white;
+    border: solid 2px;
+    border-color: #0a4f7b;
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow:
+        0 0 25px #288ccc;
+        0 0 25px #0a4f7b:
+    }
 }
 /**/
 
